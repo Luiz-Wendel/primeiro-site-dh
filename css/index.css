@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a h1 {
+    font-size: 16px;
+}
+
+#header {
+    border-bottom: 1px solid;
+}
+
+#header * {
+    display: inline-block;
+}
+
+#header ul {
+    float: right;
+    padding: 0;
+}
+
+#header ul li {
+    width: 100px;
+    text-align: center;
+}
+
+#banner {
+    text-align: center;
+    background-image: url('../midias/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#banner h4 {
+    padding-top: 240px;
+}
