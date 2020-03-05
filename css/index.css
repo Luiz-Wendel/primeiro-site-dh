@@ -24,12 +24,12 @@ a h1 {
     display: inline-block;
 }
 
-#header ul {
+#header nav {
     float: right;
     padding: 0;
 }
 
-#header ul li {
+#header nav ul li {
     width: 100px;
     text-align: center;
 }
@@ -44,4 +44,33 @@ a h1 {
 
 #banner h4 {
     padding-top: 240px;
+}
+
+#destinos {
+    text-align: center;
+
+    overflow: hidden;
+}
+
+#destinos div div {
+    width: 275px;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+
+#destinos:first-child(1) {
+    background-image: url('../midias/img/product-1.jpg')
+}
+
+.linha {
+    margin: 0 auto;
+    width: 945px;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
 }
