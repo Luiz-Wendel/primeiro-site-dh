@@ -1,0 +1,61 @@
+main {
+    background-image: url(../midias/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+#form-contact {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#form-contact * {
+    display: block;
+    margin-left: 20px;
+}
+
+#form-contact h1 {
+    text-align: center;
+}
+
+#form-contact input, #form-contact textarea {
+    width: 90%;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+#form-contact input {
+    height: 20px;
+}
+
+input#checkbox {
+    display: inline-block;
+    width: 5%;
+}
+
+#form-contact label[for="checkbox"] {
+    display: inline-block;
+    margin-left: 0;
+}
+
+#form-contact label {
+    padding: 15px 0 0 0;
+}
+
+#form-contact button {
+    display: inline-block;
+    color: white;
+    background-color: purple;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}

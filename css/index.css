@@ -17,11 +17,21 @@ a h1 {
 }
 
 #header {
+    background-color: white;
+    width: 100%;
+    z-index: 99;
+    position: sticky;
+    top: 0;
     border-bottom: 1px solid;
 }
 
 #header * {
     display: inline-block;
+}
+
+#header a h1 {
+    position: relative;
+    bottom: 15px;
 }
 
 #header nav {
@@ -40,10 +50,32 @@ a h1 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    color: white;
+}
+
+#banner h2 {
+    font-size: 35px;
+    text-transform: uppercase;
 }
 
 #banner h4 {
     padding-top: 240px;
+}
+
+#banner button {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+#banner button:hover, .box button:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
 }
 
 #destinos {
@@ -68,9 +100,49 @@ a h1 {
     width: 945px;
 }
 
+.box {
+    background-size: cover;
+}
+
+.box button {
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    top: 200px;
+}
+
+#box1 {
+    background-image: url(../midias/img/product-1.jpg);
+}
+
+#box2 {
+    background-image: url(../midias/img/product-2.jpg);
+}
+
+#box3 {
+    background-image: url(../midias/img/product-3.jpg);
+}
+
+#box4 {
+    background-image: url(../midias/img/product-4.jpg);
+}
+
+#box5 {
+    background-image: url(../midias/img/product-5.jpg);
+}
+
+#box6 {
+    background-image: url(../midias/img/product-6.jpg);
+}
+
 footer {
     background-color: purple;
     color: white;
+    width: 100%;
     text-align: center;
     padding: 5px 0 5px 0;
 }
